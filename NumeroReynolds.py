@@ -35,6 +35,7 @@ def Interfaz():
         btn2.place_forget()
 
     def main2():
+        global Objeto
         lbl.place_forget()
         lbl1.place(x=60,y= 30)
         lbl2.place(x=60,y= 50)
@@ -44,12 +45,14 @@ def Interfaz():
         D.place(x=310,y= 50)
         v.place(x=310,y= 70)
         V.place(x=310,y= 90)
-        Objeto = True
+        Objeto = False
         lbl2.configure(text = "Longitud del objeto: ")
         btn.place(x=250,y=130)
         btn1.place_forget()
         btn2.place_forget()
+        
     def Main2():
+        global Objeto
         main2()
 
     def main3():
