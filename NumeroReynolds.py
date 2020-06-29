@@ -101,17 +101,17 @@ def Interfaz():
         v.place_forget()
         btn.place_forget()
         if t1:
-            f2 = Label(window, image = im1).place(x=60,y= 50)
+            f2 = Label(window, image = im1).place(x=145,y= 65)
         if t2:
-            f2 = Label(window, image = im2).place(x=60,y= 50)
+            f2 = Label(window, image = im2).place(x=145,y= 65)
         if l1:
-            f2 = Label(window, image = im3).place(x=60,y= 50)
+            f2 = Label(window, image = im3).place(x=145,y= 65)
         if l2:
-            f2 = Label(window, image = im4).place(x=60,y= 50)
+            f2 = Label(window, image = im4).place(x=145,y= 65)
         if r1:
-            f2 = Label(window, image = im5).place(x=60,y= 50)
+            f2 = Label(window, image = im5).place(x=145,y= 65)
         if r2:
-            f2 = Label(window, image = im6).place(x=60,y= 50)
+            f2 = Label(window, image = im6).place(x=145,y= 65)
         
         
 
